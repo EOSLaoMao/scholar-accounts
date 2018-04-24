@@ -1,0 +1,51 @@
+# EOS Scholar - Block Producer
+# https://github.com/ScholarTestnet
+
+# Block Producer Account (Required)
+eosio_account_name: eos.laomao
+
+# Authority (Required)
+eosio_initial_authority:
+  owner:
+    threshold: 1
+    keys:
+    - public_key: EOS6S7greH6VSbwoAjh3tg3awRnVUiCyaauyNqkqzJK7HG5YMRtoe
+      weight: 1
+  active:
+    threshold: 1
+    keys:
+    - public_key: EOS6S7greH6VSbwoAjh3tg3awRnVUiCyaauyNqkqzJK7HG5YMRtoe
+      weight: 1
+
+# Server Config (Optional)
+eosio_http_host: booting.eoslaomao.com
+eosio_http_port: 80
+eosio_https_host: booting.eoslaomao.com
+eosio_https_port: 443
+eosio_p2p_host: booting.eoslaomao.com
+eosio_p2p_port: 9876
+
+# Encryption (Optional)
+pgp_public_key: 
+
+# Social (Optional)
+social_twitter: https://twitter.com/EOSLaoMao
+social_telegram: https://t.me/eoslaomao
+social_github: https://github.com/orgs/EOSLaoMao
+social_keybase: https://keybase.io/eoslaomao
+
+# Organization (Optional)
+organization_name: EOS LaoMao
+logo_url: https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true
+timezone: Japan/Tokyo
+website: https://eoslaomao.com
+introduction_post_url: https://steemit.com/blockchain/@eoslaomao/eoslaomao-block-producer-announcement
+organization_tagline: GO EOS GO!
+
+# Email (Optional)
+email_support: zhaoyu@docodemo.com
+email_abuse: zhaoyu@docodemo.com
+email_tech: zhaoyu@docodemo.com
+
+# EOS BIOS (Optional)
+# https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
