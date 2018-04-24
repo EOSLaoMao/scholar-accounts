@@ -18,11 +18,11 @@ eosio_initial_authority:
       weight: 1
 
 # Server Config (Optional)
-eosio_http_host: booting.eoslaomao.io
+eosio_http_host: scholar.eoslaomao.io
 eosio_http_port: 80
-eosio_https_host: booting.eoslaomao.io
+eosio_https_host: scholar.eoslaomao.io
 eosio_https_port: 443
-eosio_p2p_host: booting.eoslaomao.io
+eosio_p2p_host: scholar.eoslaomao.io
 eosio_p2p_port: 9876
 
 # Encryption (Optional)
